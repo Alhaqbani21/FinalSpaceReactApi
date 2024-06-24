@@ -60,8 +60,9 @@ function Details() {
                 className="max-w-[100] rounded-lg shadow-2xl "
               />
               <div className="flex flex-col">
-                <h1 className=" max-md:text-2xl text-5xl font-bold text-center mb-2">
-                  Hi I'm <span className="text-purple-500">{data.name}</span>
+                <h1 className=" max-md:text-xl text-5xl font-bold text-center mb-2">
+                  Hi I'm{' '}
+                  <span className="w-full text-purple-500">{data.name}</span>
                 </h1>
                 <Card
                   gender={data.gender}

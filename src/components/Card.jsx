@@ -3,11 +3,11 @@ import React from 'react';
 function Card(props) {
   return (
     <div className="rounded overflow-hidden">
-      <div className="px-6 py-4 max-w-full">
-        <div className="font-bold text-xl mb-2">
-          Status: <span className="text-purple-500">{props.status}</span>
+      <div className="py-4 max-w-full px-3">
+        <div className="font-bold text-xl mb-2 max-md:text-sm">
+          Status: <span className="text-purple-500 ">{props.status}</span>
         </div>
-        <div className="font-bold text-xl mb-2">
+        <div className="font-bold text-xl mb-2 max-md:text-sm">
           Species: <span className="text-purple-500">{props.species}</span>
         </div>
         <div className="font-bold text-xl mb-2 max-md:text-sm ">

@@ -47,17 +47,6 @@ function Home() {
     <div>
       <NavBar />
       <div className="flex flex-wrap justify-center items-center gap-16 my-5 mx-4">
-        {/* <Card
-          name={'Gary Goodspeed'}
-          status={'Alive'}
-          species={'Human'}
-          gender={'Male'}
-          img_url={
-            'https://finalspaceapi.com/api/character/avatar/gary_goodspeed.png'
-          }
-          ability1={'Piloting'}
-          ability2={'Marksmanship'}
-        /> */}
         {loading === true && (
           <>
             {' '}
