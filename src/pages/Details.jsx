@@ -57,7 +57,7 @@ function Details() {
             <div className="shadow-lg p-10 bg-base-300 rounded-lg flex  gap-10 flex-row-reverse max-md:flex-col justify-center max-md:max-w-xs">
               <img
                 src={data.img_url}
-                className="max-w-[100] rounded-lg shadow-2xl "
+                className="max-w-[100%] rounded-lg shadow-2xl "
               />
               <div className="flex flex-col">
                 <h1 className=" max-md:text-xl text-5xl font-bold text-center mb-2">
@@ -70,6 +70,7 @@ function Details() {
                   status={data.status}
                   ability1={ability1}
                   ability2={ability2}
+                  origin={data.origin}
                 />
 
                 <button

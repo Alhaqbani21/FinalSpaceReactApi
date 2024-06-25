@@ -2,15 +2,18 @@ import React from 'react';
 
 function CardHome(props) {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg ">
+    <div className="rounded overflow-hidden shadow-lg  max-w-[100%]">
       <img
-        className="w-full my-2"
+        className="w-[300px] h-[300px] my-2"
         src={props.img_url}
         alt="Sunset in the mountains"
       />
       <div className="px-6 mb-6">
-        <div className="text-xl tracking-wider flex justify-center items-center">
-          <span className="text-primary"> {props.name}</span>
+        <div className="text-xl tracking-wider flex justify-center items-center ">
+          <span className="text-primary text-center max-w-52 ">
+            {' '}
+            {props.name}
+          </span>
         </div>
       </div>
       <div className="px-6  py-2">

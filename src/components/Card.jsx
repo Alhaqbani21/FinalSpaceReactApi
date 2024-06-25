@@ -3,7 +3,7 @@ import React from 'react';
 function Card(props) {
   return (
     <div className="rounded overflow-hidden">
-      <div className="py-4 max-w-full px-3">
+      <div className="py-4 px-3">
         <div className="font-bold text-xl mb-2 max-md:text-sm">
           Status: <span className="text-purple-500 ">{props.status}</span>
         </div>
@@ -12,6 +12,9 @@ function Card(props) {
         </div>
         <div className="font-bold text-xl mb-2 max-md:text-sm ">
           Gender: <span className="text-purple-500">{props.gender}</span>
+        </div>
+        <div className="font-bold text-xl mb-2 max-md:text-sm ">
+          Origin: <span className="text-purple-500">{props.origin}</span>
         </div>
       </div>
       <div className="px-6 pt-4 pb-2">
